@@ -1,0 +1,83 @@
+body {
+  font-family: 'Righteous', cursive; 
+  font-size: 1.5em;
+  min-height: 600px;
+  background-color: #312b2b;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background: -webkit-linear-gradient(rgb(173, 125, 163), rgb(236, 207, 230), rgb(70, 9, 67)); 
+  background: -o-linear-gradient(rgb(233, 97, 203)), rgb(245, 201, 235),rgb(70, 9, 67); 
+  background: -moz-linear-gradient(rgb(233, 97, 203), rgb(175, 116, 162),  rgb(70, 9, 67)); 
+  background: linear-gradient(rgb(233, 97, 203)),rgb(192, 87, 169),rgb(70, 9, 67); 
+
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/5696534/pexels-photo-5696534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" );
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  border-radius: 10px;
+
+}
+
+.page-title {
+  color: mediumspringgreen;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.page-subtitle {
+  color: mediumspringgreen;
+  text-shadow: 1px 1px 2px #000;
+  margin-top: 20px;
+  
+}
+
+.page-logo {
+  width: 150px;
+  display: flex;
+  top: 30px;
+  right: 10px;
+  position: absolute;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+
+  }
+}
+
+
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.resultado {
+  color: rgb(8, 102, 66);
+  text-shadow: 1px 1px 2px #000;
+  text-align: center;
+  margin-top: 16px;
+}
